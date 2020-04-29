@@ -4,7 +4,7 @@ import {ProductDetailComponent} from "./product.detail.component";
 
 const routes: Routes = [
   {path: '',        component: HomeComponent},
-  {path: 'product', component: ProductDetailComponent}
+  {path: 'product/:id', component: ProductDetailComponent}  
 ];
 
 export const routing = RouterModule.forRoot(routes);
