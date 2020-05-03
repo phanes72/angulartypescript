@@ -10,6 +10,7 @@ export class ProductDetailComponent{
     productID: string;
 
     constructor(route: ActivatedRoute){
-        this.productID = route.snapshot.paramMap.get('id');
+        //this.productID = route.snapshot.paramMap.get('id');
+        this.productID = route.snapshot.queryParamMap.get('category')
     }
 }

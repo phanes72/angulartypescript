@@ -8,6 +8,7 @@ import {HomeComponent} from "./home.component";
 import {routing} from "./app.routing";
 import {RouterModule} from "@angular/router";
 
+
 @NgModule({
   declarations: [
     AppComponent, HomeComponent, ProductDetailComponent
